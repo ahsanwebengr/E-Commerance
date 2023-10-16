@@ -126,6 +126,8 @@ p {
     padding: 1.4rem 2.6rem;
     border-radius: 0.4rem;
     transition: all 0.4s ease;
+    outline: none;
+    border: none;
 }
 
 .btn-explore:hover {
@@ -615,7 +617,7 @@ h3 {
 
 .newsletter .col-right button:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
 
 /***** End Newsletters *****/
@@ -653,6 +655,7 @@ h3 {
     align-items: flex-start;
     justify-content: flex-start;
     margin-top: 2rem;
+    gap: 1.4rem;
 }
 
 .footer-1 .FollowMe .socials-links i {
@@ -704,11 +707,14 @@ h3 {
     font-weight: 600;
     color: var(--text-color);
     transition: all 0.4s ease;
+    padding-bottom: .5rem;
 }
 
 .footer .footer-2 ul li a:hover,
 .footer .footer-3 ul li a:hover {
     color: var(--black);
+    text-decoration: underline;
+
 }
 
 .footer .footer-4 p {
@@ -1084,7 +1090,7 @@ textarea {
 
 button:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
 
 /***** End Contact section *****/
@@ -1193,7 +1199,7 @@ button:hover {
 
 .cuppon .col-left button:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
 
 .cuppon .col-right h4 {
@@ -1234,7 +1240,7 @@ button:hover {
 
 .cuppon .col-right button:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
 
 /***** End Cart Section *****/
